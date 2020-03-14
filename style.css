@@ -4,13 +4,28 @@
     box-sizing: border-box;
 }
 
+main {
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+}
+
 .riga {
+    display: inline-block;
+    width: 850px;
+    height: 350px;
     background-color: green;
+    position: relative;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
 }
 
 .riquadro {
     display: inline-block;
-    height: 385px;
-    width: 260px;
+    width: 33%;
+    height: 100%;
     background-color: red;
 }
