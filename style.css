@@ -7,16 +7,19 @@
 main {
     height: 100vh;
     width: 100vw;
-    background-color: blue;
+    background-color: #00375e;
     display: inline-block;
     position: relative;
 }
 
 .riga {
     display: inline-block;
+    padding: 5px 10px;
     width: 850px;
     height: 350px;
-    background-color: green;
+    background-color: white;
+    border: 2px, 1px;
+    border-color: grey;
     position: relative;
     left: 50%;
     top: 25%;
@@ -25,7 +28,15 @@ main {
 
 .riquadro {
     display: inline-block;
+    position: relative;
     width: 33%;
     height: 100%;
-    background-color: red;
+    border: 3px solid grey;
+}
+
+.sconto {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 2px;
 }
